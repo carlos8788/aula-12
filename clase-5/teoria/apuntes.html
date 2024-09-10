@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más etiquetas</title>
+</head>
+
+<body>
+    <h1>Multimedia</h1>
+    <!-- <video src="ptyhon1.mp4" controls width="700" autoplay></video> -->
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/qZcSgGQc4-I"
+        title="50/10 Pomodoro Timer Ambience Nature Sounds | 3 x 50 min | Focus Station" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56468.22963098297!2d-64.30824775908285!3d-27.80163276433017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b526adf33f96b%3A0x9a9d18ed7764c8d6!2sSantiago%20del%20Estero!5e0!3m2!1ses-419!2sar!4v1718313809876!5m2!1ses-419!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+    <!-- Etiquetas anchor y listas -->
+    <a href="https://www.youtube.com">Ir a YouTube</a>
+    <a href="Home">Home</a>
+    <a href="About">About</a>
+
+    <!-- Lista ordenada -->
+    <h2>Lista ordenada</h2>
+    <ol>
+        <li>uno</li>
+        <li>dos</li>
+        <li>tres</li>
+        <li>cuatro</li>
+    </ol>
+    <!-- Lista desordenada -->
+    <h2>Lista desordenada</h2>
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ul>
+    <!-- Lista de definición -->
+    <h2>Lista de definición</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Lenguaje de etiquetas</dd>
+        <dt>CSS</dt>
+        <dd>Lengua de estilos</dd>
+    </dl>
+
+    <h2>Tablas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Información Personal</th>
+                <th>Ciudad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>25</td>
+                <td rowspan="2">Córdoba</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>María</td>
+                <td>32</td>
+                <td>San Luis</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Pie de la tabla</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Formularios -->
+    <h2>Formulario</h2>
+    <form>
+        <div>
+            <label for="nombre">Tu nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <br>
+        <div>
+            <label for="consulta">Tipo de consulta:</label>
+            <select id="consulta" name="consulta">
+                <option value="general">Consulta general</option>
+                <option value="pedido">Información de pedido</option>
+                <option value="soporte">Soporte técnico</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="newsletter">Suscribirse al boletín:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" checked>
+        </div>
+        <br>
+        <div>
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50">Escribe tu mensaje aquí...</textarea>
+        </div>
+        <br>
+        <div>
+            <input type="datetime">
+            <button>Dale like</button>
+            <input type="submit" value="Enviar consulta">
+        </div>
+    </form>
+</body>
+
+</html>
