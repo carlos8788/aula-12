@@ -5,3 +5,4 @@ ignorar.txt
 
 # Ignorar todos los archivos terminados en .py
 *.py
+alumnos/
