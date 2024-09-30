@@ -1,0 +1,30 @@
+html{
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor {
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 50vh;
+    font-size: 16px;
+}
+
+.unidad-em{
+    font-size: 1em;
+}
+
+.unidad-px{
+    font-size: 16px;
+}
+
+.unidad-rem {
+    font-size: 1rem;
+}

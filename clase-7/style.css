@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    background-color: blueviolet;
+    color: white;
+}
+
+.letra-grande {
+    font-size: 50px;
+}
+
+#caja-3 {
+    background-color: red;
+}
+
+.caja {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.oferta {
+    background-color: greenyellow;
+}
