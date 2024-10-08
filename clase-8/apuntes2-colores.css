@@ -1,0 +1,30 @@
+/* NORMALIZAR LOS ESTILOS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.nombre {
+    background-color: red;
+    color: white;
+}
+
+.rgb {
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+}
+
+.hexa {
+    background-color: #000;
+    color: #FFF;
+}
+

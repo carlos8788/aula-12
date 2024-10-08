@@ -1,0 +1,30 @@
+body {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 1%, rgba(0, 24, 249, 1) 17%, rgba(0, 0, 0, 1) 36%, rgba(0, 23, 36, 1) 100%);
+}
+
+img {
+    width: 200px;
+}
+
+.pelota2 {
+    width: 200px;
+}
+
+.img-1 {
+    width: 25%;
+    height: 200px;
+    background-image: url('https://www.deportesonce.com.ar/wp-content/uploads/virtuemart/product/championship-29.jpg');
+    background-position: center;
+    /* Centrar la imagen de fondo */
+    background-size: cover;
+    /* Ajustar la imagen para cubrir todo el fondo */
+}
+
+.img-2 {
+    margin: 50px;
+    width: 400px;
+    height: 400px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9P1scwC66ciAQFyaTIWi35aUqQUK3GpyOng&s');
+    background-repeat: no-repeat;
+}

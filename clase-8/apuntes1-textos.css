@@ -1,0 +1,52 @@
+/* NORMALIZAR LOS ESTILOS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    font-size: calc(1vw + 1vh + 1.5vmin);
+  }
+  
+  body {
+    background-color: #010a00;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+    font-size: 1rem;
+  }
+  
+  h1 {
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  p {
+    text-align: right;
+  }
+  
+  .neon {
+    color: #fff;
+    /* Se aplican muchas sombras sobre un mismo elemento */
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+  }
+
+
+h1{
+    background-color: #FFE619;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    /* Si colocamos pixeles negativos la orientación cambia */
+    text-shadow: 2px 2px 4px rgba(6, 249, 6, 0.974);
+}

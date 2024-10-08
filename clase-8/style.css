@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+/* NORMALIZAR LOS ESTILOS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0,
+        "XELA" 0,
+        "YELA" 0;
+}
+
+h1{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.contenedor{
+    background-color: gray;
+}
+
+.box {
+    display: inline-block; /*BOX MODEL*/
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 5px;
+    background-image: url('https://preview.webpixels.io/quick-website-ui-kit/assets/img/theme/light/placeholder.png');
+    background-size: contain;
+}
+
+.box-1 {
+    background-image: url('./img/raiden.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
