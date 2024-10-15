@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: rgb(92, 78, 78);
+    /* background: radial-gradient(circle, rgba(0, 0, 0, 1) 1%, rgba(0, 24, 249, 1) 17%, rgba(0, 0, 0, 1) 36%, rgba(0, 23, 36, 1) 100%); */
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    /* padding: 20px; */
+    margin: 0 0 20px 35px;
+}
+
+.youtube>h2 {
+    display: inline-block;
+    background-color: #FF0000;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid white;
+}
+
+.facebook {
+    /* display: block; */
+    background-color: #1877F2;
+    color: white;
+    /* width: 900px; */
+}

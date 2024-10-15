@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    background-color: rgb(184, 184, 184);
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input{
+    border-radius: 4px;
+    border: 1px blue solid;   
+    width: 100%;
+    padding: 3px;
+}
+
+label{
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255);
+    text-transform: uppercase;
+}
+
+input[type="email"]{
+    background-color: red;
+}
+
+input[type="password"]{
+    background-color: green;
+}
+
+input[type="date"]{
+    background-color: rgb(22, 236, 255);
+}
+
+button[type="reset"]{
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+
+button[type="reset"]+button{
+    background-color: red;
+}
+
+input[type="file"]~button{
+    color: rgb(26, 4, 155);
+}
+
+.fw-5.bg-green.text-red {
+    text-transform: uppercase;
+}
