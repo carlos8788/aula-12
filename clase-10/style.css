@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* FLEXBOX */
+
+nav, ul{
+    background-color: gainsboro;
+    display: flex;
+    height: 70px;
+    font-size: 25px;
+    align-items: center;
+}
+
+nav {
+    justify-content: space-around;
+}
+
+ul {
+    gap: 20px;
+}
+
+li {    
+    cursor: pointer;
+    padding: 8px;
+}
+
+.d-flex {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    height: 700px;
+}
+
+.box {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+
+.d-grid{
+    background-color: green;
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 250px 250px;
+    grid-template-areas: 
+    "img1 img1 img1 img1"
+    "img2 img3 img4 img5";
+    justify-items: center;
+    align-content: center;
+}
+
+.box-grid{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.box-grid-1{
+    width: 100%;
+    grid-area: img1;
+}
+
+.box-grid-2{
+
+    grid-area: img2;
+}
+
+.box-grid-3{
+    grid-area: img3;
+}
+
+.box-grid-4{
+    grid-area: img4;
+}
+
+.box-grid-5{
+    grid-area: img5;
+}
