@@ -1,0 +1,96 @@
+
+:root{
+    --azul-oscuro: #0b0b57;
+    --azul-claro: #b3b3e3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* position */
+.container{
+    position: relative;
+    background-color: gainsboro;
+}
+
+h1{
+    top: 20px;
+    right: 50px;
+}
+
+li{
+    list-style: none;
+}
+
+nav, ul{
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    background-color: white;
+}
+ul{
+    gap: 20px;
+}
+
+
+button{
+    position: fixed ;
+    bottom: 20px;
+    right: 20px;
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li>a:hover{
+    color: red;
+    cursor: pointer;    
+}
+
+li>a:active{
+    color: blue;
+}
+
+
+.logo{
+    color: var(--azul-claro);
+}
+
+h1{
+    color: var(--azul-claro);
+}
+
+
+a::after{
+    content: " ⬇️";
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    
+    padding: 50px;
+}
+.card {
+    width: 150px;
+    height: 200px;
+    background-color: white;
+}
+
+.oferta::before{
+    content: 'oferta ';
+    color: green;
+}
