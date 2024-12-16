@@ -1,0 +1,25 @@
+input[name="nombre"]{
+    background-color: red;
+}
+
+#inputComplejo{
+    background-color: green;
+}
+
+.red{
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 30px;
+}
+
+.error {
+    color: red;
+    font-size: 10px;
+    font-weight: bolder;
+    display: block;
+}
