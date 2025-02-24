@@ -1,0 +1,24 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.td-custom {
+    color: red;
+}
+
+.gridjs-th-content,
+.gridjs-th,
+.gridjs-tr,
+.gridjs-thead {
+    background-color: blue !important;
+    color: white;
+    /* padding: 20px; */
+}
+
+.th.gridjs-th{
+    background-color: blue !important;
+}
+
+#myChart{
+    width: 50%;
+}

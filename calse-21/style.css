@@ -1,0 +1,14 @@
+.navbar-toggler:hover{
+    box-shadow: 2px 2px 2px black;
+}
+
+.btn-orange{
+    background-color: #E25B1D;
+    color: white;
+}
+
+.btn-orange:hover{
+    background-color: #f95f18;
+    color: white;
+}
+

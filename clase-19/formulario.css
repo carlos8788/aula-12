@@ -1,0 +1,38 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 15px;
+    align-items: center;
+}
+
+form input {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    width: 50%;
+}
+
+
+form input[type="text"], form input[type="number"]{
+    width: 80%;
+}
+
+form input[type="submit"]:hover{
+    background-color: rgb(1, 80, 1);
+}
+
+form input[type="submit"]:active{
+    background-color: rgb(88, 156, 88);
+}
+
+
+h3 {
+    color: green;
+}
