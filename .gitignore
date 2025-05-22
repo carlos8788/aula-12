@@ -6,3 +6,6 @@ ignorar.txt
 # Ignorar todos los archivos terminados en .py
 *.py
 alumnos/
+package-lock.json
+node_modules
+.env

@@ -1,0 +1,33 @@
+/* 
+Small 	sm 	≥576px
+Medium 	md 	≥768px
+Large 	lg 	≥992px
+Extra large 	xl 	≥1200px
+Extra extra large 	xxl 	≥1400px 
+*/
+/* EMPEZAMOS CON < 375px */
+.fs-custom {
+  font-size: 2rem;
+  /* width: ; */
+}
+
+@media (width > 375px) {
+  .fs-custom {
+    font-size: 3rem;
+    /* width: ; */
+  }
+}
+
+@media (width >=576px) {
+  .fs-custom {
+    font-size: 4rem;
+    /* width: ; */
+  }
+}
+
+@media (width >=768px) {
+  .fs-custom {
+    font-size: 5rem;
+    /* width: ; */
+  }
+}

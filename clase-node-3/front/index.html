@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 70%;
+            margin: auto;
+        }
+        form>input[type="submit"]{
+            border: none;
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        form>input[type="submit"]:hover{
+            background-color: rgb(49, 66, 23);
+        }
+    </style>
+    <form>
+        <input type="text" placeholder="Nombre completo" name="name">
+        <input type="email" placeholder="E-mail" name="email">
+        <select name="role" >
+            <option value="viewer">Viewer</option>
+            <option value="editor">Editor</option>
+            <option value="admin">Admin</option>
+        </select>
+        <input type="date">
+        <input type="submit" value="Enviar">
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>

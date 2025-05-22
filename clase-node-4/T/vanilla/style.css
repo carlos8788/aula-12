@@ -1,0 +1,11 @@
+.card {
+    background-color: aquamarine;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card-red {
+    background-color: red;
+    color: white;
+}
